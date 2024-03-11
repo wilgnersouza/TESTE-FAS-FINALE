@@ -1,0 +1,34 @@
+2024-03-11 15:50:26.814 [info] 
+
+
+
+
+2024-03-11 15:50:26.814 [info] Extension host agent started.
+2024-03-11 15:50:26.833 [info] Started initializing default profile extensions in extensions installation folder. file:///home/wilgner_showtime/.codeoss/extensions
+2024-03-11 15:50:26.868 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/wilgner_showtime/.codeoss/extensions
+2024-03-11 15:50:30.928 [info] [127.0.0.1][e4de7499][ManagementConnection] New connection established.
+2024-03-11 15:50:31.430 [info] [127.0.0.1][d9004efc][ExtensionHostConnection] New connection established.
+2024-03-11 15:50:31.738 [info] Installing extensions...
+2024-03-11 15:50:32.764 [info] [127.0.0.1][d9004efc][ExtensionHostConnection] <1108> Launched Extension Host Process.
+2024-03-11 15:50:34.457 [info] Installing extension 'ms-ceintl.vscode-language-pack-pt-br'...
+2024-03-11 15:50:34.608 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-03-11 15:50:35.118 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br
+2024-03-11 15:50:37.062 [info] Extension signature verification is not done: ms-ceintl.vscode-language-pack-pt-br
+2024-03-11 15:50:37.181 [info] Extracted extension to file:///home/wilgner_showtime/.codeoss/extensions/ms-ceintl.vscode-language-pack-pt-br-1.83.0-universal: ms-ceintl.vscode-language-pack-pt-br
+2024-03-11 15:50:37.187 [info] Renamed to /home/wilgner_showtime/.codeoss/extensions/ms-ceintl.vscode-language-pack-pt-br-1.83.0-universal
+2024-03-11 15:50:37.195 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-pt-br
+2024-03-11 15:50:37.203 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-03-11 15:50:37.317 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br
+2024-03-11 15:50:37.319 [info] Extension 'ms-ceintl.vscode-language-pack-pt-br' v1.83.0 was successfully installed.
+2024-03-11 15:53:39.035 [info] [127.0.0.1][e4de7499][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-11 15:53:39.090 [info] [127.0.0.1][d9004efc][ExtensionHostConnection] <1108> Extension Host Process exited with code: 0, signal: null.
+2024-03-11 15:53:41.286 [info] [127.0.0.1][75329828][ManagementConnection] New connection established.
+2024-03-11 15:53:41.732 [info] [127.0.0.1][64bdfdbc][ExtensionHostConnection] New connection established.
+2024-03-11 15:53:41.739 [info] [127.0.0.1][64bdfdbc][ExtensionHostConnection] <1395> Launched Extension Host Process.
+2024-03-11 15:56:27.594 [info] Getting Manifest... pkief.material-icon-theme
+2024-03-11 15:56:28.134 [info] Installing extension: pkief.material-icon-theme
+2024-03-11 15:56:30.643 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-03-11 15:56:31.498 [info] Extracted extension to file:///home/wilgner_showtime/.codeoss/extensions/pkief.material-icon-theme-4.34.0-universal: pkief.material-icon-theme
+2024-03-11 15:56:31.557 [info] Renamed to /home/wilgner_showtime/.codeoss/extensions/pkief.material-icon-theme-4.34.0-universal
+2024-03-11 15:56:31.559 [info] Extracting extension completed. pkief.material-icon-theme
+2024-03-11 15:56:31.567 [info] Extension installed successfully: pkief.material-icon-theme

@@ -1,0 +1,18 @@
+2024-03-11 15:50:41.047 [info] Extension host with pid 1108 started
+2024-03-11 15:50:41.273 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-11 15:50:42.276 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-11 15:50:44.307 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-11 15:50:44.307 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-11 15:50:46.092 [info] Eager extensions activated
+2024-03-11 15:50:46.093 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-03-11 15:50:46.094 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-03-11 15:50:46.095 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-03-11 15:50:46.095 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-11 15:50:46.095 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-11 15:50:46.953 [error] No bundle location found for extension google.cloud-shell
+2024-03-11 15:50:47.195 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-11 15:50:47.196 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-11 15:50:47.239 [error] No bundle location found for extension EditorConfig.EditorConfig
+2024-03-11 15:50:47.309 [error] No bundle location found for extension googlecloudtools.cloudcode
+2024-03-11 15:53:39.036 [info] Extension host terminating: received terminate message from renderer
+2024-03-11 15:53:39.069 [info] Extension host with pid 1108 exiting with code 0

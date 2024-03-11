@@ -1,0 +1,12 @@
+I0311 15:51:08.361855    1258 serve.go:43] language_server (Dec  5 2023 13:36:57 -0800, cl:588173277 baseline:588173277)
+I0311 15:51:08.362551    1258 serve.go:44] Command line: ["/home/wilgner_showtime/.cache/cloud-code/language-server-binaries/ai-companion/linux_amd64/language_server" "-logtostderr"]
+I0311 15:51:08.364728    1258 life_cycle.go:81] Initializing. Architecture: "amd64", Operating system: "linux"
+I0311 15:51:08.388983    1258 configuration.go:124] product updateChannel will be used
+I0311 15:51:08.389008    1258 configuration.go:351] language thresholds: map[]
+I0311 15:51:08.389031    1258 configuration.go:540] atlas codeCompletion llm options: {MaxTokens:0xc0005f6ca4 Temp:<nil> Samples:0xc0005f6ca0 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc0005f6ca8 StopSequences:map[] DataFilePromptLines:<nil>}
+I0311 15:51:08.389063    1258 configuration.go:540] atlas codeGeneration llm options: {MaxTokens:0xc0005f6d10 Temp:<nil> Samples:0xc0005f6d00 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc0005f6d14 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:0xc0005f6d08}
+I0311 15:51:08.389204    1258 configuration.go:183] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"Complete":{"MaxTokens":64,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":null},"Generate":{"MaxTokens":512,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"UseTypeoverCache":true}
+I0311 15:51:08.389219    1258 configuration.go:185] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 autoGen:false invokeGen:true extraneousPromptFilesLimit:-1 codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-10 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60} useRest:<nil> enableNotebooks:false}
+I0311 15:51:08.389240    1258 configuration.go:187] Configured settings for canCancelRequests: true
+I0311 15:51:08.389247    1258 configuration.go:189] Configured settings for contextPromptOpts: &{Endpoint:}
+I0311 15:51:08.389257    1258 configuration.go:190] Configured settings for enableRemoteContext: false

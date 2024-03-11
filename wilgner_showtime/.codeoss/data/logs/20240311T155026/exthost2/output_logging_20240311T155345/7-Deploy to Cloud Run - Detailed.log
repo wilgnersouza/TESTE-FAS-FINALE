@@ -1,0 +1,167 @@
+Retrieving builders.
+Getting Gcloud Login State.
+Using current GCP Project "testefasdocker"
+Using current GCP Project "testefasdocker"
+Checking Cloud Run API status.
+Checking Cloud Run API status.
+Getting Cloud Run Services for project "testefasdocker".
+Getting Cloud Run Services for project "testefasdocker".
+Retrieving builders.
+Getting Gcloud Login State.
+Using current GCP Project "testefasdocker"
+Checking Cloud Run API status.
+Getting Cloud Run Services for project "testefasdocker".
+Retrieving builders.
+Getting Gcloud Login State.
+Using current GCP Project "testefasdocker"
+Checking Cloud Run API status.
+Getting Cloud Run Services for project "testefasdocker".
+Retrieving builders.
+Getting Gcloud Login State.
+Using current GCP Project "testefasdocker"
+Checking Cloud Run API status.
+Getting Cloud Run Services for project "testefasdocker".
+Executing Skaffold build.
+Running skaffold command: /usr/bin/skaffold init --artifact {"image":"gcr.io/testefasdocker/testefas","builder":"Docker","payload":{"path":"Dockerfile"}} --skip-deploy --filename /tmp/cloud-code-cloud-run-JJa6eE/skaffold.yaml --force
+Setting build tagPolicy to SHA256.
+Setting statusCheckDeadlineSeconds to 5 minutes
+Setting build environment to 'local'
+Created the file /tmp/cloud-code-cloud-run-JJa6eE/skaffold.yaml.
+Running skaffold command: build --filename /tmp/cloud-code-cloud-run-JJa6eE/skaffold.yaml --kube-context='' --platform=linux/amd64
+Generating tags...
+ - gcr.io/testefasdocker/testefas -> gcr.io/testefasdocker/testefas:latest
+Checking cache...
+- gcr.io/testefasdocker/testefas: Not found. Building
+Starting build...
+Building [gcr.io/testefasdocker/testefas]...
+Target platforms: [linux/amd64]
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 738B done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/node:19-alpine
+#2 DONE 1.3s
+#3 [internal] load .dockerignore
+#3 transferring context: 89B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 484.34kB 0.0s done
+#4 DONE 0.1s
+
+#5 [1/5] FROM docker.io/library/node:19-alpine@sha256:8ec543d4795e2e85af924a24f8acb039792ae9fe8a42ad5b4bf4c277ab34b62e
+#5 resolve docker.io/library/node:19-alpine@sha256:8ec543d4795e2e85af924a24f8acb039792ae9fe8a42ad5b4bf4c277ab34b62e 0.0s done
+#5 sha256:8a49fdb3b6a5ff2bd8ec6a86c05b2922a0f7454579ecc07637e94dfd1d0639b6 0B / 3.40MB 0.2s
+#5 sha256:1197750296b3abe1d21ffbb3d3ea76df5ba887cf82c8e3284d267cbb2aa1724a 0B / 48.15MB 0.2s
+#5 sha256:f352bc07f19b43a8678cc8c8efe162ccb6193ead7af6dd366639a01402d1819e 0B / 2.34MB 0.2s
+#5 sha256:8ec543d4795e2e85af924a24f8acb039792ae9fe8a42ad5b4bf4c277ab34b62e 1.43kB / 1.43kB done
+#5 sha256:d0ba7111bc031323ce2706f8e424afc868db289ba40ff55b05561cf59c123be1 1.16kB / 1.16kB done
+#5 sha256:e2a8cc97f817417787050d381376568c494547f9af9decfca6463dee6db6561c 6.73kB / 6.73kB done
+#5 sha256:8a49fdb3b6a5ff2bd8ec6a86c05b2922a0f7454579ecc07637e94dfd1d0639b6 3.40MB / 3.40MB 0.3s done
+#5 extracting sha256:8a49fdb3b6a5ff2bd8ec6a86c05b2922a0f7454579ecc07637e94dfd1d0639b6 0.1s
+#5 sha256:47be83a79857fb67c4d144471b8301ae6fb874971bfaa60d12dc97ea1355cffe 0B / 449B 0.4s
+#5 sha256:1197750296b3abe1d21ffbb3d3ea76df5ba887cf82c8e3284d267cbb2aa1724a 40.79MB / 48.15MB 0.6s
+#5 sha256:f352bc07f19b43a8678cc8c8efe162ccb6193ead7af6dd366639a01402d1819e 2.34MB / 2.34MB 0.4s done
+#5 extracting sha256:8a49fdb3b6a5ff2bd8ec6a86c05b2922a0f7454579ecc07637e94dfd1d0639b6 0.1s done
+#5 sha256:1197750296b3abe1d21ffbb3d3ea76df5ba887cf82c8e3284d267cbb2aa1724a 48.15MB / 48.15MB 0.7s
+#5 sha256:47be83a79857fb67c4d144471b8301ae6fb874971bfaa60d12dc97ea1355cffe 449B / 449B 0.7s
+#5 sha256:1197750296b3abe1d21ffbb3d3ea76df5ba887cf82c8e3284d267cbb2aa1724a 48.15MB / 48.15MB 0.7s done
+#5 sha256:47be83a79857fb67c4d144471b8301ae6fb874971bfaa60d12dc97ea1355cffe 449B / 449B 0.7s done
+#5 extracting sha256:1197750296b3abe1d21ffbb3d3ea76df5ba887cf82c8e3284d267cbb2aa1724a 0.1s
+#5 extracting sha256:1197750296b3abe1d21ffbb3d3ea76df5ba887cf82c8e3284d267cbb2aa1724a 3.1s done
+#5 extracting sha256:f352bc07f19b43a8678cc8c8efe162ccb6193ead7af6dd366639a01402d1819e
+#5 extracting sha256:f352bc07f19b43a8678cc8c8efe162ccb6193ead7af6dd366639a01402d1819e 0.1s done
+#5 extracting sha256:47be83a79857fb67c4d144471b8301ae6fb874971bfaa60d12dc97ea1355cffe done
+#5 DONE 4.3s
+#6 [2/5] WORKDIR /usr/src/app
+#6 DONE 0.7s
+#7 [3/5] COPY package*.json ./
+#7 DONE 0.0s
+
+#8 [4/5] RUN npm install --production
+#8 0.700 npm
+WARN config production Use `--omit=dev` instead.
+#8 2.206 
+#8 2.206 added 74 packages, and audited 75 packages in 2s
+#8 2.207 
+#8 2.207 12 packages are looking for funding
+#8 2.207   run `npm fund` for details
+#8 2.209 
+#8 2.209 found 0 vulnerabilities
+#8 2.209 npm notice 
+#8 2.210 npm notice New major version of npm available! 9.6.3 -> 10.5.0
+#8 2.210 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.0>
+#8 2.210 npm notice Run `npm install -g npm@10.5.0` to update!
+#8 2.210 npm notice 
+#8 DONE 2.3s
+#9 [5/5] COPY . ./
+#9 DONE 0.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.2s done
+#10 writing image sha256:daad37dd1b59dc93579440098d5a4b703d455665e7ad55033ec2372e33bdd28e
+#10 writing image sha256:daad37dd1b59dc93579440098d5a4b703d455665e7ad55033ec2372e33bdd28e done
+#10 naming to gcr.io/testefasdocker/testefas:latest done
+#10 DONE 0.2s
+The push refers to repository [gcr.io/testefasdocker/testefas]
+2d2884db1957: Preparing
+0615a71a32aa: Preparing
+a46326e2b9bb: Preparing
+3262a749fba8: Preparing
+e394b5a78515: Preparing
+9b2d5af7f709: Preparing
+b240fe81adaa: Preparing
+bb01bd7e32b5: Preparing
+9b2d5af7f709: Waiting
+b240fe81adaa: Waiting
+bb01bd7e32b5: Waiting
+e394b5a78515: Layer already exists
+3262a749fba8: Pushed
+2d2884db1957: Pushed
+a46326e2b9bb: Pushed
+9b2d5af7f709: Layer already exists
+0615a71a32aa: Pushed
+b240fe81adaa: Layer already exists
+bb01bd7e32b5: Layer already exists
+latest: digest: sha256:e8fd55f66aa16112d2b007a1daeb46a55bbeb1bad4d91a6f58a51d12a2d807f9 size: 1995
+Build [gcr.io/testefasdocker/testefas] succeeded
+Executing Gcloud Run Deploy
+Running gcloud command: run deploy testefas --project testefasdocker --image gcr.io/testefasdocker/testefas --client-name Cloud Code for VS Code --client-version 2.2.0 --platform managed --region us-central1 --allow-unauthenticated --port 8080 --cpu 1 --memory 256Mi --concurrency 80 --timeout 300 --clear-env-vars
+Deploying container to Cloud Run service [testefas] in project [testefasdocker] region [us-central1]
+Deploying new service...
+Setting IAM Policy.............done
+Creating Revision............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................done
+Routing traffic.....done
+Done.
+Service [testefas] revision [testefas-00001-rhk] has been deployed and is serving 100 percent of traffic.
+Service URL: https://testefas-y6bgbxsbqq-uc.a.run.app
+Retrieving builders.
+Getting Gcloud Login State.
+Using current GCP Project "testefasdocker"
+Checking Cloud Run API status.
+Getting Cloud Run Services for project "testefasdocker".
+Executing Skaffold build.
+Running skaffold command: /usr/bin/skaffold init --artifact {"image":"gcr.io/testefasdocker/testefas","builder":"Docker","payload":{"path":"Dockerfile"}} --skip-deploy --filename /tmp/cloud-code-cloud-run-xYIkyG/skaffold.yaml --force
+Setting build tagPolicy to SHA256.
+Setting statusCheckDeadlineSeconds to 5 minutes
+Setting build environment to 'local'
+Created the file /tmp/cloud-code-cloud-run-xYIkyG/skaffold.yaml.
+Running skaffold command: build --filename /tmp/cloud-code-cloud-run-xYIkyG/skaffold.yaml --kube-context='' --platform=linux/amd64
+Generating tags...
+ - gcr.io/testefasdocker/testefas ->
+gcr.io/testefasdocker/testefas:latest
+Checking cache...
+- gcr.io/testefasdocker/testefas: Found Remotely
+Executing Gcloud Run Deploy
+Running gcloud command: run deploy testefas --project testefasdocker --image gcr.io/testefasdocker/testefas --client-name Cloud Code for VS Code --client-version 2.2.0 --platform managed --region us-central1 --allow-unauthenticated --port 8080 --cpu 1 --memory 256Mi --concurrency 80 --timeout 300 --clear-env-vars
+Deploying container to Cloud Run service [testefas] in project [testefasdocker] region [us-central1]
+Deploying...
+Setting IAM Policy..............done
+Creating Revision....................................................done
+Routing traffic.....done
+Done.
+Service [testefas] revision [testefas-00002-tpd] has been deployed and is serving 100 percent of traffic.
+Service URL: https://testefas-y6bgbxsbqq-uc.a.run.app

@@ -1,0 +1,51 @@
+I0311 15:55:42.959257    1539 serve.go:43] language_server (Dec  5 2023 13:36:57 -0800, cl:588173277 baseline:588173277)
+I0311 15:55:42.960441    1539 serve.go:44] Command line: ["/home/wilgner_showtime/.cache/cloud-code/language-server-binaries/ai-companion/linux_amd64/language_server" "-logtostderr"]
+I0311 15:55:42.962625    1539 life_cycle.go:81] Initializing. Architecture: "amd64", Operating system: "linux"
+I0311 15:55:42.985119    1539 configuration.go:124] product updateChannel will be used
+I0311 15:55:42.985145    1539 configuration.go:351] language thresholds: map[]
+I0311 15:55:42.985168    1539 configuration.go:540] atlas codeCompletion llm options: {MaxTokens:0xc0006b2874 Temp:<nil> Samples:0xc0006b2870 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc0006b2878 StopSequences:map[] DataFilePromptLines:<nil>}
+I0311 15:55:42.985199    1539 configuration.go:540] atlas codeGeneration llm options: {MaxTokens:0xc0006b28e0 Temp:<nil> Samples:0xc0006b28d0 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc0006b28e4 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:0xc0006b28d8}
+I0311 15:55:42.985344    1539 configuration.go:183] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"Complete":{"MaxTokens":64,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":null},"Generate":{"MaxTokens":512,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"UseTypeoverCache":true}
+I0311 15:55:42.985355    1539 configuration.go:185] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 autoGen:false invokeGen:true extraneousPromptFilesLimit:-1 codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-10 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60} useRest:<nil> enableNotebooks:false}
+I0311 15:55:42.985383    1539 configuration.go:187] Configured settings for canCancelRequests: true
+I0311 15:55:42.985393    1539 configuration.go:189] Configured settings for contextPromptOpts: &{Endpoint:}
+I0311 15:55:42.985402    1539 configuration.go:190] Configured settings for enableRemoteContext: false
+W0311 15:56:32.278061    1539 server.go:340] unknown method "$/setTrace"
+I0311 15:56:32.324574    1539 configuration.go:124] product updateChannel will be used
+I0311 15:56:32.324642    1539 configuration.go:351] language thresholds: map[]
+I0311 15:56:32.324669    1539 configuration.go:540] atlas codeCompletion llm options: {MaxTokens:0xc0006b3534 Temp:<nil> Samples:0xc0006b3530 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc0006b3538 StopSequences:map[] DataFilePromptLines:<nil>}
+I0311 15:56:32.324744    1539 configuration.go:540] atlas codeGeneration llm options: {MaxTokens:0xc0006b35a0 Temp:<nil> Samples:0xc0006b3590 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc0006b35a4 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:0xc0006b3598}
+I0311 15:56:32.324807    1539 configuration.go:183] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"Complete":{"MaxTokens":64,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":null},"Generate":{"MaxTokens":512,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"UseTypeoverCache":true}
+I0311 15:56:32.324819    1539 configuration.go:185] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 autoGen:false invokeGen:true extraneousPromptFilesLimit:-1 codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-10 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60} useRest:<nil> enableNotebooks:false}
+I0311 15:56:32.324841    1539 configuration.go:187] Configured settings for canCancelRequests: true
+I0311 15:56:32.324848    1539 configuration.go:189] Configured settings for contextPromptOpts: &{Endpoint:}
+I0311 15:56:32.324857    1539 configuration.go:190] Configured settings for enableRemoteContext: false
+W0311 15:56:34.859912    1539 server.go:340] unknown method "$/setTrace"
+I0311 15:56:34.879156    1539 configuration.go:124] product updateChannel will be used
+I0311 15:56:34.879191    1539 configuration.go:351] language thresholds: map[]
+I0311 15:56:34.879216    1539 configuration.go:540] atlas codeCompletion llm options: {MaxTokens:0xc0007102d4 Temp:<nil> Samples:0xc0007102d0 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc0007102d8 StopSequences:map[] DataFilePromptLines:<nil>}
+I0311 15:56:34.879256    1539 configuration.go:540] atlas codeGeneration llm options: {MaxTokens:0xc000710340 Temp:<nil> Samples:0xc000710330 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc000710344 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:0xc000710338}
+I0311 15:56:34.879294    1539 configuration.go:183] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"Complete":{"MaxTokens":64,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":null},"Generate":{"MaxTokens":512,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"UseTypeoverCache":true}
+I0311 15:56:34.879308    1539 configuration.go:185] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 autoGen:false invokeGen:true extraneousPromptFilesLimit:-1 codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-10 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60} useRest:<nil> enableNotebooks:false}
+I0311 15:56:34.879337    1539 configuration.go:187] Configured settings for canCancelRequests: true
+I0311 15:56:34.879344    1539 configuration.go:189] Configured settings for contextPromptOpts: &{Endpoint:}
+I0311 15:56:34.879353    1539 configuration.go:190] Configured settings for enableRemoteContext: false
+W0311 15:57:59.038287    1539 server.go:340] unknown method "$/setTrace"
+I0311 15:57:59.088610    1539 configuration.go:124] product updateChannel will be used
+I0311 15:57:59.088645    1539 configuration.go:351] language thresholds: map[]
+I0311 15:57:59.088673    1539 configuration.go:540] atlas codeCompletion llm options: {MaxTokens:0xc0007105b4 Temp:<nil> Samples:0xc0007105b0 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc0007105b8 StopSequences:map[] DataFilePromptLines:<nil>}
+I0311 15:57:59.088727    1539 configuration.go:540] atlas codeGeneration llm options: {MaxTokens:0xc000710620 Temp:<nil> Samples:0xc000710610 Prompt:<nil> EnablePrompt:<nil> PromptOverride: PostProcess:0xc000710624 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:0xc000710618}
+I0311 15:57:59.088760    1539 configuration.go:183] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"Complete":{"MaxTokens":64,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":null},"Generate":{"MaxTokens":512,"Temp":null,"Samples":4,"Prompt":null,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"UseTypeoverCache":true}
+I0311 15:57:59.088768    1539 configuration.go:185] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 autoGen:false invokeGen:true extraneousPromptFilesLimit:-1 codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-10 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60} useRest:<nil> enableNotebooks:false}
+I0311 15:57:59.088790    1539 configuration.go:187] Configured settings for canCancelRequests: true
+I0311 15:57:59.088798    1539 configuration.go:189] Configured settings for contextPromptOpts: &{Endpoint:}
+I0311 15:57:59.088806    1539 configuration.go:190] Configured settings for enableRemoteContext: false
+W0311 16:03:58.233331    1539 server.go:340] unknown method "textDocument/documentLink"
+W0311 16:04:05.239275    1539 server.go:340] unknown method "textDocument/documentLink"
+W0311 16:04:08.592581    1539 server.go:340] unknown method "textDocument/documentLink"
+W0311 16:04:10.282261    1539 server.go:340] unknown method "textDocument/documentLink"
+W0311 16:04:11.252224    1539 server.go:340] unknown method "textDocument/documentLink"
+W0311 16:06:09.951024    1539 server.go:340] unknown method "textDocument/documentLink"
+W0311 16:11:04.149814    1539 server.go:340] unknown method "textDocument/documentLink"
+W0311 16:12:32.688346    1539 server.go:340] unknown method "textDocument/documentLink"
+W0311 16:17:54.234095    1539 server.go:340] unknown method "textDocument/documentLink"
