@@ -1,5 +1,5 @@
 # TESTE FAS 🔎 
-Uma aplicação para listar fornecedores e produtos 💻
+Uma aplicação para listar fornecedores e produtos utilizando Docker e Google Cloud💻
 
 ---
 
@@ -9,8 +9,6 @@ Uma aplicação para listar fornecedores e produtos 💻
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/wilgnersouza" width="100px;" alt="Wilgner Souza"/>
  <br />
  <sub><b>Wilgner Souza</b></sub></a> <a href="https://www.linkedin.com/in/wilgner-souza-stw97/" title="Linkedin Wilgner">💻</a>
-
-Feito por Wilgner Souza 😉 </br>
 
 Entre em contato! 👇👇 </br>
 
